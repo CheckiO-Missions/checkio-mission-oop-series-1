@@ -10,7 +10,7 @@ if not "my_car" in USER_GLOBAL:
 my_car = USER_GLOBAL['my_car']
 
 if not isinstance(my_car, Car):
-    raise Warning("my_car should be an instance of Car class")
+    raise TypeError("'my_car' should be an instance of 'Car' class")
 """
 
 run_test = """
