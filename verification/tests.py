@@ -5,7 +5,7 @@ if not "Car" in USER_GLOBAL:
 Car = USER_GLOBAL['Car']
 
 if not "my_car" in USER_GLOBAL:
-    raise NotImplementedError("Where is 'my_car'?")
+    raise NotImplementedError("Dude, where is 'my_car'?")
 
 my_car = USER_GLOBAL['my_car']
 
