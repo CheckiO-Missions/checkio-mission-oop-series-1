@@ -1,6 +1,6 @@
 init_code = """
 if not "Car" in USER_GLOBAL:
-    raise NotImplementedError("Where is 'Car'?")
+    raise NotImplementedError("Where is 'Car' class?")
 
 Car = USER_GLOBAL['Car']
 
